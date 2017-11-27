@@ -10,5 +10,7 @@
 #import "Calorie.h"
 
 @interface CalorieModel : NSObject
+
 @property (strong,nonatomic) NSMutableArray* mealarray;
+
 @end

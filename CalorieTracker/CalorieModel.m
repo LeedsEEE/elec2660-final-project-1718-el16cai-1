@@ -18,7 +18,7 @@
         YorkshirePudding.foodtype=@"Yorkshire Pudding";
         YorkshirePudding.calories=80;
         YorkshirePudding.ServingSize=@"1 serving";
-        YorkshirePudding.imageName=@"YorkshirePudding.jpg";// Diagram gotten from http://www.udontalk.com/forum/viewtopic.php?t=9406
+    YorkshirePudding.imageName=@"YorkshirePudding.jpg";// Diagram gotten from http://www.udontalk.com/forum/viewtopic.php?t=9406
         
         self.mealarray=[NSMutableArray array];
         Calorie*ChickenTikkaMasala=[[Calorie alloc]init];

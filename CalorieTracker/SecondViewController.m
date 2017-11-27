@@ -20,8 +20,12 @@
     self.caloriestextfield.text=[NSString stringWithFormat:@"%ld",self.calorie.calories];
 self.servingsizetextfield.text=self.calorie.ServingSize;
     self.foodimage.image=[UIImage imageNamed:self.calorie.imageName];
-    //textField.enabled = NO;
+ 
     
+    // Code To Disable text fields
+    self.foodtypetextfield.userInteractionEnabled = NO;
+    self.caloriestextfield.userInteractionEnabled=NO;
+    self.servingsizetextfield.userInteractionEnabled=NO;
     }
     
     // Do any additional setup after loading the view, typically from a nib.

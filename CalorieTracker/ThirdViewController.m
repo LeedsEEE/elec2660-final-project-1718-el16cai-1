@@ -8,7 +8,14 @@
 
 #import "ThirdViewController.h"
 
-@interface ThirdViewController ()
+
+#define HEIGHT self.view.frame.size.height
+#define WIDTH self.view.frame.size.width
+
+@interface ThirdViewController () <UITableViewDelegate, UITableViewDataSource> {
+    UITableView *mealtable;
+    NSMutableArray *tempArray;
+}
 
 @end
 
@@ -16,13 +23,37 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+     self.CalorieData1 =[[CalorieModel alloc]init];
+     mealtable = [[UITableView alloc] initWithFrame:CGRectMake(0, HEIGHT*0.5, WIDTH, HEIGHT*0.5)
+                                                           style:UITableViewStylePlain];
+    mealtable.separatorColor = [UIColor clearColor];
+    // then hide table
+    mealtable.hidden = YES;
+    mealtable.delegate = self;
+    mealtable.dataSource=self;
+    
+    // init the temp array to store food found
+    tempArray = [[NSMutableArray alloc] initWithCapacity:0];
+    
     // Do any additional setup after loading the view.
+    
+    // add the tableview to screen
+    [self.view addSubview:mealtable];
+    
+    
+    // change the background color...
+    //self.view.backgroundColor = [UIColor colorWithRed:(1/255) green:(1/255) blue:(1/255) alpha:1];
+    // for a background image
+    //self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@""]];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+
 
 /*
 #pragma mark - Navigation
@@ -34,9 +65,78 @@
 }
 */
 
+
+
+
 - (IBAction)Optionsbutton:(UIButton *)sender {
+
     
+    // show table to user
+    mealtable.hidden = NO;
     
+    // Find the food with correct calories
+    // first loop through the array of foods
+    for (int i = 0; i < [self.CalorieData1.mealarray count]; i++) {
+        Calorie *temp2 = [self.CalorieData1.mealarray objectAtIndex:i];
+        // take the current food value at index
+        int RollNumber = [self.CaloriesTextField.text intValue];
+        // take the value of the calorie in the text field
+        if (RollNumber >= temp2.calories) {
+            // check for the foods lower than the roll number
+            
+            NSLog(@"Food Found!");
+            // NSLOG a found food
+            [tempArray addObject:temp2];
+            // Save the found food to a temp array
+        }
+    }
+    [mealtable reloadData];
+    // Reload the table view after completion
+    
+  
 }
+    
+    #pragma mark - Table view data source
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    
+    NSInteger foodCount = [tempArray count];
+    if ([tempArray count] > 3) {
+        foodCount = 3;
+    }
+    return foodCount;
+}
+
+#pragma mark- Table view delegate
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    static NSString *CellIdentifier = @"cell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+    }
+    
+    if(indexPath.section==0){
+        
+        if ([tempArray count] > 0) {
+            Calorie *food = [tempArray objectAtIndex:indexPath.row];
+            cell.textLabel.text = food.foodtype;
+        }
+    }
+    return cell;
+}
+
+
+
+
+    
+
+
+
 
 @end
