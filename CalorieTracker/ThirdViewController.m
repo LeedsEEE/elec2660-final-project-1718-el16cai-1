@@ -73,7 +73,8 @@
     
     // show table to user
     mealtable.hidden = NO;
-    
+    // clear the array before the search
+    [tempArray removeAllObjects];
     // Find the food with correct calories
     // first loop through the array of foods
     for (int i = 0; i < [self.CalorieData1.mealarray count]; i++) {
@@ -90,7 +91,7 @@
             // Save the found food to a temp array
         }
     }
-    [mealtable reloadData];
+    [mealtable reloadData];                                             
     // Reload the table view after completion
     
   

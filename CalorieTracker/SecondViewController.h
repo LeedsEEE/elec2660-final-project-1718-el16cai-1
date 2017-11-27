@@ -16,7 +16,6 @@
 @property (weak, nonatomic) IBOutlet UITextField *servingsizetextfield;
 @property (weak, nonatomic) IBOutlet UIImageView *foodimage;
 @property (strong,nonatomic) Calorie *calorie;
-//textField.delegate=self;
 
 @end
 
