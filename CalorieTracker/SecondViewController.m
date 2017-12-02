@@ -20,7 +20,8 @@
     self.caloriestextfield.text=[NSString stringWithFormat:@"%ld",self.calorie.calories];
 self.servingsizetextfield.text=self.calorie.ServingSize;
     self.foodimage.image=[UIImage imageNamed:self.calorie.imageName];
- 
+ self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"food1.jpg"]];
+    //Image gotten from http://gordotaqueria.co
     
     // Code To Disable text fields
     self.foodtypetextfield.userInteractionEnabled = NO;

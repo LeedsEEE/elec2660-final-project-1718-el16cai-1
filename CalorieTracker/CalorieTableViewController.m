@@ -53,6 +53,11 @@
         Calorie *tempCalorie=[self.CalorieData.mealarray objectAtIndex:indexPath.row];
         cell.textLabel.text=tempCalorie.foodtype;
     
+        if ( indexPath.row % 2 == 0 )
+            cell.backgroundColor = [UIColor whiteColor];
+        else
+            cell.backgroundColor = [UIColor lightGrayColor];
+        // Code gotten from https://stackoverflow.com/questions/24743184/uitableview-set-background-color
     // Configure the cell...
     }
     return cell;

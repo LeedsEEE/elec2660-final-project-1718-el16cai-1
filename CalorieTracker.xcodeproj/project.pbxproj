@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2147BC11FD1D8CF00A3F209 /* Cumberland Pie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2147BC01FD1D8CF00A3F209 /* Cumberland Pie.jpg */; };
+		D2147BC31FD1DA9400A3F209 /* RoastBeefgravy.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D2147BC21FD1DA9300A3F209 /* RoastBeefgravy.jpeg */; };
+		D2147BC51FD1DDF400A3F209 /* ShepherdsPie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2147BC41FD1DDF400A3F209 /* ShepherdsPie.jpg */; };
+		D2147BC71FD1EA1F00A3F209 /* steakaleandpie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2147BC61FD1EA1F00A3F209 /* steakaleandpie.jpg */; };
+		D2147BC91FD1F06F00A3F209 /* Lancashire hotpot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2147BC81FD1F06E00A3F209 /* Lancashire hotpot.jpg */; };
+		D2147BCB1FD1F47100A3F209 /* Scotchegg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2147BCA1FD1F47100A3F209 /* Scotchegg.jpg */; };
+		D2147BCD1FD1F84000A3F209 /* CornishPasty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2147BCC1FD1F83F00A3F209 /* CornishPasty.jpg */; };
+		D2147BCF1FD1FEC300A3F209 /* VictorianSponge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2147BCE1FD1FEC300A3F209 /* VictorianSponge.jpg */; };
+		D2147BD11FD2041600A3F209 /* peaandhamsoup.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D2147BD01FD2041500A3F209 /* peaandhamsoup.jpeg */; };
+		D2147BD31FD2E3DE00A3F209 /* ploughman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2147BD21FD2E3DE00A3F209 /* ploughman.jpg */; };
+		D2147BD51FD2E76A00A3F209 /* prawncocktail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2147BD41FD2E76A00A3F209 /* prawncocktail.jpg */; };
+		D2147BD71FD2EC9900A3F209 /* vegetablestirfry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2147BD61FD2EC9800A3F209 /* vegetablestirfry.jpg */; };
+		D2147BDB1FD2EE8400A3F209 /* food1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2147BDA1FD2EE8400A3F209 /* food1.jpg */; };
+		D2147BDD1FD2F6FD00A3F209 /* applecrumble.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2147BDC1FD2F6FC00A3F209 /* applecrumble.jpg */; };
+		D2147BDF1FD2F97900A3F209 /* baconbutty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2147BDE1FD2F97900A3F209 /* baconbutty.jpg */; };
 		D287A25C1FC152F100CC3C0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D287A25B1FC152F100CC3C0B /* AppDelegate.m */; };
 		D287A25F1FC152F100CC3C0B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D287A25E1FC152F100CC3C0B /* FirstViewController.m */; };
 		D287A2621FC152F100CC3C0B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D287A2611FC152F100CC3C0B /* SecondViewController.m */; };
@@ -40,6 +55,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D2147BC01FD1D8CF00A3F209 /* Cumberland Pie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Cumberland Pie.jpg"; path = "../../../../Downloads/Cumberland Pie.jpg"; sourceTree = "<group>"; };
+		D2147BC21FD1DA9300A3F209 /* RoastBeefgravy.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RoastBeefgravy.jpeg; sourceTree = "<group>"; };
+		D2147BC41FD1DDF400A3F209 /* ShepherdsPie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ShepherdsPie.jpg; sourceTree = "<group>"; };
+		D2147BC61FD1EA1F00A3F209 /* steakaleandpie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = steakaleandpie.jpg; sourceTree = "<group>"; };
+		D2147BC81FD1F06E00A3F209 /* Lancashire hotpot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lancashire hotpot.jpg"; sourceTree = "<group>"; };
+		D2147BCA1FD1F47100A3F209 /* Scotchegg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Scotchegg.jpg; sourceTree = "<group>"; };
+		D2147BCC1FD1F83F00A3F209 /* CornishPasty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CornishPasty.jpg; sourceTree = "<group>"; };
+		D2147BCE1FD1FEC300A3F209 /* VictorianSponge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = VictorianSponge.jpg; sourceTree = "<group>"; };
+		D2147BD01FD2041500A3F209 /* peaandhamsoup.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = peaandhamsoup.jpeg; sourceTree = "<group>"; };
+		D2147BD21FD2E3DE00A3F209 /* ploughman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ploughman.jpg; sourceTree = "<group>"; };
+		D2147BD41FD2E76A00A3F209 /* prawncocktail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = prawncocktail.jpg; sourceTree = "<group>"; };
+		D2147BD61FD2EC9800A3F209 /* vegetablestirfry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vegetablestirfry.jpg; sourceTree = "<group>"; };
+		D2147BDA1FD2EE8400A3F209 /* food1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = food1.jpg; sourceTree = "<group>"; };
+		D2147BDC1FD2F6FC00A3F209 /* applecrumble.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = applecrumble.jpg; sourceTree = "<group>"; };
+		D2147BDE1FD2F97900A3F209 /* baconbutty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baconbutty.jpg; sourceTree = "<group>"; };
 		D287A2571FC152F100CC3C0B /* CalorieTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalorieTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D287A25A1FC152F100CC3C0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D287A25B1FC152F100CC3C0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -132,13 +162,28 @@
 				D287A2931FC15C8800CC3C0B /* ThirdViewController.m */,
 				D287A2951FC15D7700CC3C0B /* CalorieTableViewController.h */,
 				D287A2961FC15D7700CC3C0B /* CalorieTableViewController.m */,
-				D287A2631FC152F100CC3C0B /* Main.storyboard */,
 				D287A2981FC15ED800CC3C0B /* Calorie.h */,
 				D287A2991FC15ED800CC3C0B /* Calorie.m */,
 				D287A29B1FC1600500CC3C0B /* CalorieModel.h */,
 				D287A29C1FC1600500CC3C0B /* CalorieModel.m */,
+				D287A2631FC152F100CC3C0B /* Main.storyboard */,
 				D287A2A01FC1677700CC3C0B /* Fish&Chips.png */,
+				D2147BC61FD1EA1F00A3F209 /* steakaleandpie.jpg */,
+				D2147BC81FD1F06E00A3F209 /* Lancashire hotpot.jpg */,
+				D2147BC41FD1DDF400A3F209 /* ShepherdsPie.jpg */,
+				D2147BDE1FD2F97900A3F209 /* baconbutty.jpg */,
+				D2147BCC1FD1F83F00A3F209 /* CornishPasty.jpg */,
+				D2147BCE1FD1FEC300A3F209 /* VictorianSponge.jpg */,
+				D2147BDA1FD2EE8400A3F209 /* food1.jpg */,
+				D2147BCA1FD1F47100A3F209 /* Scotchegg.jpg */,
+				D2147BC01FD1D8CF00A3F209 /* Cumberland Pie.jpg */,
+				D2147BDC1FD2F6FC00A3F209 /* applecrumble.jpg */,
+				D2147BD01FD2041500A3F209 /* peaandhamsoup.jpeg */,
+				D2147BD41FD2E76A00A3F209 /* prawncocktail.jpg */,
+				D2147BD61FD2EC9800A3F209 /* vegetablestirfry.jpg */,
+				D2147BD21FD2E3DE00A3F209 /* ploughman.jpg */,
 				D287A29E1FC1634700CC3C0B /* YorkshirePudding.jpg */,
+				D2147BC21FD1DA9300A3F209 /* RoastBeefgravy.jpeg */,
 				D287A2A11FC1696200CC3C0B /* IrishBangersandmash.jpg */,
 				D287A29F1FC1652900CC3C0B /* ChickenTikkaMasala.jpg */,
 				D287A2A21FC16A8500CC3C0B /* Crumpets.jpeg */,
@@ -275,9 +320,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2147BDF1FD2F97900A3F209 /* baconbutty.jpg in Resources */,
+				D2147BD11FD2041600A3F209 /* peaandhamsoup.jpeg in Resources */,
+				D2147BDB1FD2EE8400A3F209 /* food1.jpg in Resources */,
+				D2147BCD1FD1F84000A3F209 /* CornishPasty.jpg in Resources */,
+				D2147BD71FD2EC9900A3F209 /* vegetablestirfry.jpg in Resources */,
+				D2147BC11FD1D8CF00A3F209 /* Cumberland Pie.jpg in Resources */,
 				D287A26A1FC152F100CC3C0B /* LaunchScreen.storyboard in Resources */,
+				D2147BD51FD2E76A00A3F209 /* prawncocktail.jpg in Resources */,
+				D2147BC31FD1DA9400A3F209 /* RoastBeefgravy.jpeg in Resources */,
 				D287A2671FC152F100CC3C0B /* Assets.xcassets in Resources */,
+				D2147BC91FD1F06F00A3F209 /* Lancashire hotpot.jpg in Resources */,
+				D2147BCB1FD1F47100A3F209 /* Scotchegg.jpg in Resources */,
+				D2147BDD1FD2F6FD00A3F209 /* applecrumble.jpg in Resources */,
+				D2147BCF1FD1FEC300A3F209 /* VictorianSponge.jpg in Resources */,
+				D2147BC71FD1EA1F00A3F209 /* steakaleandpie.jpg in Resources */,
 				D287A2651FC152F100CC3C0B /* Main.storyboard in Resources */,
+				D2147BD31FD2E3DE00A3F209 /* ploughman.jpg in Resources */,
+				D2147BC51FD1DDF400A3F209 /* ShepherdsPie.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

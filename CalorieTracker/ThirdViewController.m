@@ -96,7 +96,14 @@
     
   
 }
-    
+
+//UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"ROFL"
+                                              //  message:@"Dee dee doo doo."
+                                              // delegate:self
+                                      //cancelButtonTitle:@"OK"
+                                      //otherButtonTitles:nil];
+//[alert show];
+//\*  https://stackoverflow.com/questions/4463806/adding-a-simple-uialertview
     #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -127,7 +134,13 @@
         if ([tempArray count] > 0) {
             Calorie *food = [tempArray objectAtIndex:indexPath.row];
             cell.textLabel.text = food.foodtype;
+            cell.detailTextLabel.text=food.ServingSize;
         }
+        
+        if ( indexPath.row % 2 == 0 )
+            cell.backgroundColor = [UIColor whiteColor];
+        else
+            cell.backgroundColor = [UIColor lightGrayColor];
     }
     return cell;
 }
