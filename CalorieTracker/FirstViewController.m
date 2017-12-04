@@ -17,10 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.personalbmicalc=[[BMIDataModel alloc]init];
-    self.HeightSlider1.value= 0.0;
+    self.HeightSlider1.value=0.0;
     self.Weightslider1.value=0.0;
-    //self.BMITextField.text=[NSString stringWithFormat:@"%.2f",self.personalbmicalc.bmi];
     // self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"bmi.jpg"]];
+   
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -33,26 +33,23 @@
 
 - (IBAction)HeightSlider:(UISlider *)sender {
     self.HeightTextField.text=[NSString stringWithFormat:@" %.2f m",sender.value];
-    float height= [self.HeightTextField.text floatValue];
-    float weight=[self.WeightTextField.text floatValue];
-    float bmi= (weight/ (height * height));
-    self.BMITextField.text=[NSString stringWithFormat: @" %.2f", bmi];
+    _BMITextField.text = [NSString stringWithFormat:@"%.2f", [_personalbmicalc calculateBMIwithHeight:[self.HeightTextField.text floatValue] andWeight:[self.WeightTextField.text floatValue]]];
+    self.StatusTextField.text = [_personalbmicalc getBMIStatuswithHeight:[self.HeightTextField.text floatValue] andWeight:[self.WeightTextField.text floatValue]];
+    
+   
 }
-
-- (IBAction)WeightSlider:(UISlider *)sender {
+-(IBAction)WeightSlider:(UISlider *)sender{
     self.WeightTextField.text=[NSString stringWithFormat:@"%.2f kg",sender.value];
-    float height= [self.HeightTextField.text floatValue];
-    float weight=[self.WeightTextField.text floatValue];
-    float bmi= (weight/ (height * height));
-    self.BMITextField.text=[NSString stringWithFormat: @"%.2f", bmi];
+    _BMITextField.text = [NSString stringWithFormat:@"%.2f", [_personalbmicalc calculateBMIwithHeight:[self.HeightTextField.text floatValue] andWeight:[self.WeightTextField.text floatValue]]];
+    self.StatusTextField.text = [_personalbmicalc getBMIStatuswithHeight:[self.HeightTextField.text floatValue] andWeight:[self.WeightTextField.text floatValue]];
 }
-
 - (IBAction)ResetButton:(UIButton *)sender {
     self.HeightSlider1.value= 0.0;
     self.Weightslider1.value=0.0;
     self.WeightTextField.text=[NSString stringWithFormat:@"0.00"];
     self.BMITextField.text=[NSString stringWithFormat:@"N/A"];
     self.HeightTextField.text=[NSString stringWithFormat:@"0.00"];
+    self.StatusTextField.text=[NSString stringWithFormat:@"NIL"];
     }
 
 @end

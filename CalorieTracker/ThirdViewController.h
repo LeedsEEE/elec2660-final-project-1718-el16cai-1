@@ -18,4 +18,5 @@
 
 @property (strong,nonatomic) Calorie *calorie;
 @property (strong,nonatomic) CalorieModel *CalorieData1;
+
 @end

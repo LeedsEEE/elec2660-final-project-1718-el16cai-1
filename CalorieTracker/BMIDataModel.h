@@ -20,5 +20,6 @@
 @property (weak, nonatomic) IBOutlet UITextField *StatusTextField;
 
 
--(void)calculateBMI;
+-(float) calculateBMIwithHeight:(float) height andWeight:(float) weight;
+-(NSString*)getBMIStatuswithHeight:(float) height andWeight:(float) weight;
 @end

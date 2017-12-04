@@ -9,40 +9,41 @@
 #import "BMIDataModel.h"
 
 @implementation BMIDataModel
--(void) calculateBMI {
+-(float) calculateBMIwithHeight:(float) height andWeight:(float) weight {
     //converts them from a string to a number
-    float height= [self.HeightTextField.text floatValue];
-    float weight=[self.WeightTextField.text floatValue];
+    float bmi= (weight/(height * height));
+    return bmi;
+//    self.BMITextField.text=[NSString stringWithFormat:@"%.2f",bmi];
+}
+-(NSString*)getBMIStatuswithHeight:(float) height andWeight:(float) weight{
     
     float bmi= (weight/ (height * height));
-    
-    self.BMITextField.text=[NSString stringWithFormat: @"BMI= %.2f", bmi];
-    
     if (bmi<15.0){
-        self.StatusTextField.text=@"Very severely underweight";
+        return @"Very severely underweight";
         
     }
     else if(bmi >= 15 && bmi < 16){
-        self.StatusTextField.text=@"Severely Underweight";
+        return @"Severely Underweight";
     }
     else if(bmi>=16.0 && bmi<18.5){
-        self.StatusTextField.text=@"Underweight";
+        return @"Underweight";
     }
     else if(bmi>=18.5 && bmi<25){
-        self.StatusTextField.text=@"Normal(Healthy)";
+        return @"Normal(Healthy)";
     }
     else if(bmi>=25 && bmi<30){
-        self.StatusTextField.text=@"Overweight";
+        return @"Overweight";
     }
     else if(bmi>=30 && bmi<35){
-        self.StatusTextField.text=@"Obese Class I";
+        return @"Obese Class I";
     }
     else if(bmi>=35 && bmi<40){
-        self.StatusTextField.text=@"Obese Class II";
+        return @"Obese Class II";
     }
     else{
-        self.StatusTextField.text=@"Obese Class III"
+        return @"Obese Class III"
         ;    }
 }
+
 
 @end

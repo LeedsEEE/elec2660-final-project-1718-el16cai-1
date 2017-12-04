@@ -84,13 +84,21 @@
         // take the value of the calorie in the text field
         if (RollNumber >= temp2.calories) {
             // check for the foods lower than the roll number
-            
+            if(RollNumber=0){
+                UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"ROFL"
+                        message:@"Dee dee doo doo."
+                        delegate:self
+                        cancelButtonTitle:@"OK"
+                        otherButtonTitles:nil];
+                [alert show];
+            }
             NSLog(@"Food Found!");
             // NSLOG a found food
             [tempArray addObject:temp2];
             // Save the found food to a temp array
         }
     }
+    
     [mealtable reloadData];                                             
     // Reload the table view after completion
     
@@ -133,16 +141,19 @@
         
         if ([tempArray count] > 0) {
             Calorie *food = [tempArray objectAtIndex:indexPath.row];
-            cell.textLabel.text = food.foodtype;
-            cell.detailTextLabel.text=food.ServingSize;
+            NSString *combined = [NSString stringWithFormat:@"%@          %@", food.foodtype, food.ServingSize];
+            cell.textLabel.text = combined;
+            //cell.detailTextLabel.text=food.ServingSize;
         }
-        
+        //Code to combine strings gotten from https://stackoverflow.com/questions/6948178/how-to-combine-two-strings-in-objective-c-for-an-iphone-app
         if ( indexPath.row % 2 == 0 )
             cell.backgroundColor = [UIColor whiteColor];
         else
             cell.backgroundColor = [UIColor lightGrayColor];
     }
-    return cell;
+
+return cell;
+  
 }
 
 

@@ -17,6 +17,7 @@
 @property (weak, nonatomic) IBOutlet UISlider *HeightSlider1;
 @property (weak, nonatomic) IBOutlet UISlider *Weightslider1;
 @property (weak, nonatomic) IBOutlet UITextField *StatusTextField;
+
 - (IBAction)HeightSlider:(UISlider *)sender;
 - (IBAction)WeightSlider:(UISlider *)sender;
 - (IBAction)ResetButton:(UIButton *)sender;
