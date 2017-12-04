@@ -22,6 +22,8 @@
 		D2147BDB1FD2EE8400A3F209 /* food1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2147BDA1FD2EE8400A3F209 /* food1.jpg */; };
 		D2147BDD1FD2F6FD00A3F209 /* applecrumble.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2147BDC1FD2F6FC00A3F209 /* applecrumble.jpg */; };
 		D2147BDF1FD2F97900A3F209 /* baconbutty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2147BDE1FD2F97900A3F209 /* baconbutty.jpg */; };
+		D2147BE21FD3030200A3F209 /* BMIDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D2147BE11FD3030200A3F209 /* BMIDataModel.m */; };
+		D2147BE41FD3062A00A3F209 /* bmi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2147BE31FD3062900A3F209 /* bmi.jpg */; };
 		D287A25C1FC152F100CC3C0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D287A25B1FC152F100CC3C0B /* AppDelegate.m */; };
 		D287A25F1FC152F100CC3C0B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D287A25E1FC152F100CC3C0B /* FirstViewController.m */; };
 		D287A2621FC152F100CC3C0B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D287A2611FC152F100CC3C0B /* SecondViewController.m */; };
@@ -70,6 +72,9 @@
 		D2147BDA1FD2EE8400A3F209 /* food1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = food1.jpg; sourceTree = "<group>"; };
 		D2147BDC1FD2F6FC00A3F209 /* applecrumble.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = applecrumble.jpg; sourceTree = "<group>"; };
 		D2147BDE1FD2F97900A3F209 /* baconbutty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baconbutty.jpg; sourceTree = "<group>"; };
+		D2147BE01FD3030200A3F209 /* BMIDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMIDataModel.h; sourceTree = "<group>"; };
+		D2147BE11FD3030200A3F209 /* BMIDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMIDataModel.m; sourceTree = "<group>"; };
+		D2147BE31FD3062900A3F209 /* bmi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bmi.jpg; sourceTree = "<group>"; };
 		D287A2571FC152F100CC3C0B /* CalorieTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalorieTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D287A25A1FC152F100CC3C0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D287A25B1FC152F100CC3C0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -167,10 +172,13 @@
 				D287A29B1FC1600500CC3C0B /* CalorieModel.h */,
 				D287A29C1FC1600500CC3C0B /* CalorieModel.m */,
 				D287A2631FC152F100CC3C0B /* Main.storyboard */,
+				D2147BE01FD3030200A3F209 /* BMIDataModel.h */,
+				D2147BE11FD3030200A3F209 /* BMIDataModel.m */,
 				D287A2A01FC1677700CC3C0B /* Fish&Chips.png */,
 				D2147BC61FD1EA1F00A3F209 /* steakaleandpie.jpg */,
 				D2147BC81FD1F06E00A3F209 /* Lancashire hotpot.jpg */,
 				D2147BC41FD1DDF400A3F209 /* ShepherdsPie.jpg */,
+				D2147BE31FD3062900A3F209 /* bmi.jpg */,
 				D2147BDE1FD2F97900A3F209 /* baconbutty.jpg */,
 				D2147BCC1FD1F83F00A3F209 /* CornishPasty.jpg */,
 				D2147BCE1FD1FEC300A3F209 /* VictorianSponge.jpg */,
@@ -326,6 +334,7 @@
 				D2147BCD1FD1F84000A3F209 /* CornishPasty.jpg in Resources */,
 				D2147BD71FD2EC9900A3F209 /* vegetablestirfry.jpg in Resources */,
 				D2147BC11FD1D8CF00A3F209 /* Cumberland Pie.jpg in Resources */,
+				D2147BE41FD3062A00A3F209 /* bmi.jpg in Resources */,
 				D287A26A1FC152F100CC3C0B /* LaunchScreen.storyboard in Resources */,
 				D2147BD51FD2E76A00A3F209 /* prawncocktail.jpg in Resources */,
 				D2147BC31FD1DA9400A3F209 /* RoastBeefgravy.jpeg in Resources */,
@@ -368,6 +377,7 @@
 				D287A25C1FC152F100CC3C0B /* AppDelegate.m in Sources */,
 				D287A26D1FC152F100CC3C0B /* main.m in Sources */,
 				D287A29A1FC15ED800CC3C0B /* Calorie.m in Sources */,
+				D2147BE21FD3030200A3F209 /* BMIDataModel.m in Sources */,
 				D287A25F1FC152F100CC3C0B /* FirstViewController.m in Sources */,
 				D287A2971FC15D7700CC3C0B /* CalorieTableViewController.m in Sources */,
 			);
