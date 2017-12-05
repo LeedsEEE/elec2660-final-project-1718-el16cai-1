@@ -24,6 +24,9 @@
 		D2147BDF1FD2F97900A3F209 /* baconbutty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2147BDE1FD2F97900A3F209 /* baconbutty.jpg */; };
 		D2147BE21FD3030200A3F209 /* BMIDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D2147BE11FD3030200A3F209 /* BMIDataModel.m */; };
 		D2147BE41FD3062A00A3F209 /* bmi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2147BE31FD3062900A3F209 /* bmi.jpg */; };
+		D23CA72C1FD739D50006A22D /* calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = D23CA72B1FD739D50006A22D /* calculator.png */; };
+		D23CA72E1FD739F60006A22D /* tableicon.png in Resources */ = {isa = PBXBuildFile; fileRef = D23CA72D1FD739F50006A22D /* tableicon.png */; };
+		D23CA7301FD73A0F0006A22D /* counter.png in Resources */ = {isa = PBXBuildFile; fileRef = D23CA72F1FD73A0E0006A22D /* counter.png */; };
 		D287A25C1FC152F100CC3C0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D287A25B1FC152F100CC3C0B /* AppDelegate.m */; };
 		D287A25F1FC152F100CC3C0B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D287A25E1FC152F100CC3C0B /* FirstViewController.m */; };
 		D287A2621FC152F100CC3C0B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D287A2611FC152F100CC3C0B /* SecondViewController.m */; };
@@ -75,6 +78,9 @@
 		D2147BE01FD3030200A3F209 /* BMIDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMIDataModel.h; sourceTree = "<group>"; };
 		D2147BE11FD3030200A3F209 /* BMIDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMIDataModel.m; sourceTree = "<group>"; };
 		D2147BE31FD3062900A3F209 /* bmi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bmi.jpg; sourceTree = "<group>"; };
+		D23CA72B1FD739D50006A22D /* calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calculator.png; path = ../../../../Downloads/calculator.png; sourceTree = "<group>"; };
+		D23CA72D1FD739F50006A22D /* tableicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tableicon.png; path = ../../../../Downloads/tableicon.png; sourceTree = "<group>"; };
+		D23CA72F1FD73A0E0006A22D /* counter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = counter.png; path = ../../../../Downloads/counter.png; sourceTree = "<group>"; };
 		D287A2571FC152F100CC3C0B /* CalorieTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalorieTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D287A25A1FC152F100CC3C0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D287A25B1FC152F100CC3C0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -180,10 +186,13 @@
 				D2147BC41FD1DDF400A3F209 /* ShepherdsPie.jpg */,
 				D2147BE31FD3062900A3F209 /* bmi.jpg */,
 				D2147BDE1FD2F97900A3F209 /* baconbutty.jpg */,
+				D23CA72B1FD739D50006A22D /* calculator.png */,
 				D2147BCC1FD1F83F00A3F209 /* CornishPasty.jpg */,
 				D2147BCE1FD1FEC300A3F209 /* VictorianSponge.jpg */,
+				D23CA72F1FD73A0E0006A22D /* counter.png */,
 				D2147BDA1FD2EE8400A3F209 /* food1.jpg */,
 				D2147BCA1FD1F47100A3F209 /* Scotchegg.jpg */,
+				D23CA72D1FD739F50006A22D /* tableicon.png */,
 				D2147BC01FD1D8CF00A3F209 /* Cumberland Pie.jpg */,
 				D2147BDC1FD2F6FC00A3F209 /* applecrumble.jpg */,
 				D2147BD01FD2041500A3F209 /* peaandhamsoup.jpeg */,
@@ -328,9 +337,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D23CA7301FD73A0F0006A22D /* counter.png in Resources */,
 				D2147BDF1FD2F97900A3F209 /* baconbutty.jpg in Resources */,
 				D2147BD11FD2041600A3F209 /* peaandhamsoup.jpeg in Resources */,
 				D2147BDB1FD2EE8400A3F209 /* food1.jpg in Resources */,
+				D23CA72C1FD739D50006A22D /* calculator.png in Resources */,
+				D23CA72E1FD739F60006A22D /* tableicon.png in Resources */,
 				D2147BCD1FD1F84000A3F209 /* CornishPasty.jpg in Resources */,
 				D2147BD71FD2EC9900A3F209 /* vegetablestirfry.jpg in Resources */,
 				D2147BC11FD1D8CF00A3F209 /* Cumberland Pie.jpg in Resources */,

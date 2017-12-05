@@ -69,8 +69,8 @@
 
 
 - (IBAction)Optionsbutton:(UIButton *)sender {
-
-    
+//hides keyboard from showing
+    [ _CaloriesTextField resignFirstResponder];
     // show table to user
     mealtable.hidden = NO;
     // clear the array before the search
@@ -84,13 +84,16 @@
         // take the value of the calorie in the text field
         if (RollNumber >= temp2.calories) {
             // check for the foods lower than the roll number
-            if(RollNumber=0){
-                UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"ROFL"
-                        message:@"Dee dee doo doo."
-                        delegate:self
-                        cancelButtonTitle:@"OK"
-                        otherButtonTitles:nil];
-                [alert show];
+            if(RollNumber>=2000){
+                UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Warning"
+                        message:@"That Number Is Invalid."
+                    preferredStyle:UIAlertControllerStyleAlert];
+                UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
+            handler:^(UIAlertAction * action) {}];
+                
+                [alert addAction:defaultAction];
+                [self presentViewController:alert animated:YES completion:nil];
+                mealtable.hidden=YES;
             }
             NSLog(@"Food Found!");
             // NSLOG a found food

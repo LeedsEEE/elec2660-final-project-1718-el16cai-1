@@ -20,7 +20,10 @@
     self.HeightSlider1.value=0.0;
     self.Weightslider1.value=0.0;
     // self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"bmi.jpg"]];
-   
+    self.WeightTextField.userInteractionEnabled = NO;
+    self.HeightTextField.userInteractionEnabled=NO;
+    self.BMITextField.userInteractionEnabled=NO;
+    self.StatusTextField.userInteractionEnabled=NO;
     // Do any additional setup after loading the view, typically from a nib.
 }
 
