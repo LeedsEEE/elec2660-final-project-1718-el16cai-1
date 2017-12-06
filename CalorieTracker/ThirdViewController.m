@@ -86,7 +86,7 @@
             // check for the foods lower than the roll number
             if(RollNumber>=2000){
                 UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Warning"
-                        message:@"That Number Is Invalid."
+                        message:@"Please Enter A Valid Number"
                     preferredStyle:UIAlertControllerStyleAlert];
                 UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
             handler:^(UIAlertAction * action) {}];

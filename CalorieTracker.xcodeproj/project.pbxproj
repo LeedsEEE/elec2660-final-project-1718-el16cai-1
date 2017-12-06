@@ -40,6 +40,9 @@
 		D287A2971FC15D7700CC3C0B /* CalorieTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D287A2961FC15D7700CC3C0B /* CalorieTableViewController.m */; };
 		D287A29A1FC15ED800CC3C0B /* Calorie.m in Sources */ = {isa = PBXBuildFile; fileRef = D287A2991FC15ED800CC3C0B /* Calorie.m */; };
 		D287A29D1FC1600500CC3C0B /* CalorieModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D287A29C1FC1600500CC3C0B /* CalorieModel.m */; };
+		D2A7997E1FD83FAC00C90CCC /* InformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A7997D1FD83FAC00C90CCC /* InformationViewController.m */; };
+		D2A799811FD8402C00C90CCC /* DetailInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A799801FD8402C00C90CCC /* DetailInformationViewController.m */; };
+		D2A799841FD869AF00C90CCC /* InformationString.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A799831FD869AF00C90CCC /* InformationString.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +116,12 @@
 		D287A2A11FC1696200CC3C0B /* IrishBangersandmash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IrishBangersandmash.jpg; sourceTree = "<group>"; };
 		D287A2A21FC16A8500CC3C0B /* Crumpets.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Crumpets.jpeg; sourceTree = "<group>"; };
 		D287A2A31FC16BBC00CC3C0B /* porkpie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = porkpie.jpg; sourceTree = "<group>"; };
+		D2A7997C1FD83FAC00C90CCC /* InformationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InformationViewController.h; sourceTree = "<group>"; };
+		D2A7997D1FD83FAC00C90CCC /* InformationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InformationViewController.m; sourceTree = "<group>"; };
+		D2A7997F1FD8402C00C90CCC /* DetailInformationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailInformationViewController.h; sourceTree = "<group>"; };
+		D2A799801FD8402C00C90CCC /* DetailInformationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailInformationViewController.m; sourceTree = "<group>"; };
+		D2A799821FD869AF00C90CCC /* InformationString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InformationString.h; sourceTree = "<group>"; };
+		D2A799831FD869AF00C90CCC /* InformationString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InformationString.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +182,12 @@
 				D287A2611FC152F100CC3C0B /* SecondViewController.m */,
 				D287A2921FC15C8800CC3C0B /* ThirdViewController.h */,
 				D287A2931FC15C8800CC3C0B /* ThirdViewController.m */,
+				D2A7997C1FD83FAC00C90CCC /* InformationViewController.h */,
+				D2A7997D1FD83FAC00C90CCC /* InformationViewController.m */,
+				D2A7997F1FD8402C00C90CCC /* DetailInformationViewController.h */,
+				D2A799801FD8402C00C90CCC /* DetailInformationViewController.m */,
+				D2A799821FD869AF00C90CCC /* InformationString.h */,
+				D2A799831FD869AF00C90CCC /* InformationString.m */,
 				D287A2951FC15D7700CC3C0B /* CalorieTableViewController.h */,
 				D287A2961FC15D7700CC3C0B /* CalorieTableViewController.m */,
 				D287A2981FC15ED800CC3C0B /* Calorie.h */,
@@ -385,9 +400,12 @@
 			files = (
 				D287A2621FC152F100CC3C0B /* SecondViewController.m in Sources */,
 				D287A29D1FC1600500CC3C0B /* CalorieModel.m in Sources */,
+				D2A799811FD8402C00C90CCC /* DetailInformationViewController.m in Sources */,
 				D287A2941FC15C8800CC3C0B /* ThirdViewController.m in Sources */,
 				D287A25C1FC152F100CC3C0B /* AppDelegate.m in Sources */,
 				D287A26D1FC152F100CC3C0B /* main.m in Sources */,
+				D2A7997E1FD83FAC00C90CCC /* InformationViewController.m in Sources */,
+				D2A799841FD869AF00C90CCC /* InformationString.m in Sources */,
 				D287A29A1FC15ED800CC3C0B /* Calorie.m in Sources */,
 				D2147BE21FD3030200A3F209 /* BMIDataModel.m in Sources */,
 				D287A25F1FC152F100CC3C0B /* FirstViewController.m in Sources */,
