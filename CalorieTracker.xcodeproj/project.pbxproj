@@ -27,6 +27,8 @@
 		D23CA72C1FD739D50006A22D /* calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = D23CA72B1FD739D50006A22D /* calculator.png */; };
 		D23CA72E1FD739F60006A22D /* tableicon.png in Resources */ = {isa = PBXBuildFile; fileRef = D23CA72D1FD739F50006A22D /* tableicon.png */; };
 		D23CA7301FD73A0F0006A22D /* counter.png in Resources */ = {isa = PBXBuildFile; fileRef = D23CA72F1FD73A0E0006A22D /* counter.png */; };
+		D269A6221FD9AE2900DD7A13 /* weights.png in Resources */ = {isa = PBXBuildFile; fileRef = D269A6211FD9AE2900DD7A13 /* weights.png */; };
+		D269A6241FD9AE9600DD7A13 /* launchimage.png in Resources */ = {isa = PBXBuildFile; fileRef = D269A6231FD9AE9600DD7A13 /* launchimage.png */; };
 		D287A25C1FC152F100CC3C0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D287A25B1FC152F100CC3C0B /* AppDelegate.m */; };
 		D287A25F1FC152F100CC3C0B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D287A25E1FC152F100CC3C0B /* FirstViewController.m */; };
 		D287A2621FC152F100CC3C0B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D287A2611FC152F100CC3C0B /* SecondViewController.m */; };
@@ -88,6 +90,8 @@
 		D23CA72B1FD739D50006A22D /* calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calculator.png; path = ../../../../Downloads/calculator.png; sourceTree = "<group>"; };
 		D23CA72D1FD739F50006A22D /* tableicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tableicon.png; path = ../../../../Downloads/tableicon.png; sourceTree = "<group>"; };
 		D23CA72F1FD73A0E0006A22D /* counter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = counter.png; path = ../../../../Downloads/counter.png; sourceTree = "<group>"; };
+		D269A6211FD9AE2900DD7A13 /* weights.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weights.png; sourceTree = "<group>"; };
+		D269A6231FD9AE9600DD7A13 /* launchimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchimage.png; sourceTree = "<group>"; };
 		D287A2571FC152F100CC3C0B /* CalorieTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalorieTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D287A25A1FC152F100CC3C0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D287A25B1FC152F100CC3C0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -222,6 +226,8 @@
 				D23CA72D1FD739F50006A22D /* tableicon.png */,
 				D2147BC01FD1D8CF00A3F209 /* Cumberland Pie.jpg */,
 				D2147BDC1FD2F6FC00A3F209 /* applecrumble.jpg */,
+				D269A6231FD9AE9600DD7A13 /* launchimage.png */,
+				D269A6211FD9AE2900DD7A13 /* weights.png */,
 				D2147BD01FD2041500A3F209 /* peaandhamsoup.jpeg */,
 				D2147BD41FD2E76A00A3F209 /* prawncocktail.jpg */,
 				D2147BD61FD2EC9800A3F209 /* vegetablestirfry.jpg */,
@@ -372,6 +378,8 @@
 				D23CA72C1FD739D50006A22D /* calculator.png in Resources */,
 				D23CA72E1FD739F60006A22D /* tableicon.png in Resources */,
 				D2147BCD1FD1F84000A3F209 /* CornishPasty.jpg in Resources */,
+				D269A6241FD9AE9600DD7A13 /* launchimage.png in Resources */,
+				D269A6221FD9AE2900DD7A13 /* weights.png in Resources */,
 				D2147BD71FD2EC9900A3F209 /* vegetablestirfry.jpg in Resources */,
 				D2A799861FD8987E00C90CCC /* form.png in Resources */,
 				D2147BC11FD1D8CF00A3F209 /* Cumberland Pie.jpg in Resources */,
