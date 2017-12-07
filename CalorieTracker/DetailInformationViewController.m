@@ -23,9 +23,11 @@
     _CurrentBMILabel.text=InformationStringClass.CurrentBMIString;
     _ExpectedBMILabel.text=InformationStringClass.ExpectedBMIString;
     _ExpectedCaloriesLabel.text=InformationStringClass.ExpectedCaloriesString;
-   
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    //Launch screen image gotten from https://www.clker.com/clipart-weightlifting.html
+    //App icon of this view controller gotten from https://icons8.com/icon/new-icons/all
+    //Code to pass data between views gotten from https://www.youtube.com/watch?v=_HMBdkXbv9s
 }
 
 - (void)didReceiveMemoryWarning {

@@ -46,6 +46,9 @@
     }
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    //Code to pass data between views gotten from https://www.youtube.com/watch?v=_HMBdkXbv9s
+    //Launch screen image gotten from https://www.clker.com/clipart-weightlifting.html
+    //App icon of this view controller gotten from https://icons8.com/icon/new-icons/all
 }
 
 

@@ -31,7 +31,8 @@ self.servingsizetextfield.text=self.calorie.ServingSize;
     
     // Do any additional setup after loading the view, typically from a nib.
 
-
+//Launch screen image gotten from https://www.clker.com/clipart-weightlifting.html
+//App icon of this view controller gotten from https://icons8.com/icon/new-icons/all
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

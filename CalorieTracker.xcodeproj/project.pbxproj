@@ -23,7 +23,6 @@
 		D2147BDD1FD2F6FD00A3F209 /* applecrumble.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2147BDC1FD2F6FC00A3F209 /* applecrumble.jpg */; };
 		D2147BDF1FD2F97900A3F209 /* baconbutty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2147BDE1FD2F97900A3F209 /* baconbutty.jpg */; };
 		D2147BE21FD3030200A3F209 /* BMIDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D2147BE11FD3030200A3F209 /* BMIDataModel.m */; };
-		D2147BE41FD3062A00A3F209 /* bmi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2147BE31FD3062900A3F209 /* bmi.jpg */; };
 		D23CA72C1FD739D50006A22D /* calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = D23CA72B1FD739D50006A22D /* calculator.png */; };
 		D23CA72E1FD739F60006A22D /* tableicon.png in Resources */ = {isa = PBXBuildFile; fileRef = D23CA72D1FD739F50006A22D /* tableicon.png */; };
 		D23CA7301FD73A0F0006A22D /* counter.png in Resources */ = {isa = PBXBuildFile; fileRef = D23CA72F1FD73A0E0006A22D /* counter.png */; };
@@ -86,7 +85,6 @@
 		D2147BDE1FD2F97900A3F209 /* baconbutty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baconbutty.jpg; sourceTree = "<group>"; };
 		D2147BE01FD3030200A3F209 /* BMIDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMIDataModel.h; sourceTree = "<group>"; };
 		D2147BE11FD3030200A3F209 /* BMIDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMIDataModel.m; sourceTree = "<group>"; };
-		D2147BE31FD3062900A3F209 /* bmi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bmi.jpg; sourceTree = "<group>"; };
 		D23CA72B1FD739D50006A22D /* calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calculator.png; path = ../../../../Downloads/calculator.png; sourceTree = "<group>"; };
 		D23CA72D1FD739F50006A22D /* tableicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tableicon.png; path = ../../../../Downloads/tableicon.png; sourceTree = "<group>"; };
 		D23CA72F1FD73A0E0006A22D /* counter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = counter.png; path = ../../../../Downloads/counter.png; sourceTree = "<group>"; };
@@ -211,7 +209,6 @@
 				D2147BC61FD1EA1F00A3F209 /* steakaleandpie.jpg */,
 				D2147BC81FD1F06E00A3F209 /* Lancashire hotpot.jpg */,
 				D2147BC41FD1DDF400A3F209 /* ShepherdsPie.jpg */,
-				D2147BE31FD3062900A3F209 /* bmi.jpg */,
 				D2A799851FD8987C00C90CCC /* form.png */,
 				D2147BDE1FD2F97900A3F209 /* baconbutty.jpg */,
 				D23CA72B1FD739D50006A22D /* calculator.png */,
@@ -383,7 +380,6 @@
 				D2147BD71FD2EC9900A3F209 /* vegetablestirfry.jpg in Resources */,
 				D2A799861FD8987E00C90CCC /* form.png in Resources */,
 				D2147BC11FD1D8CF00A3F209 /* Cumberland Pie.jpg in Resources */,
-				D2147BE41FD3062A00A3F209 /* bmi.jpg in Resources */,
 				D287A26A1FC152F100CC3C0B /* LaunchScreen.storyboard in Resources */,
 				D2147BD51FD2E76A00A3F209 /* prawncocktail.jpg in Resources */,
 				D2147BC31FD1DA9400A3F209 /* RoastBeefgravy.jpeg in Resources */,

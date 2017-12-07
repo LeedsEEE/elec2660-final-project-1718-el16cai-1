@@ -13,7 +13,6 @@
     //converts them from a string to a number
     float bmi= (weight/(height * height));
     return bmi;
-//    self.BMITextField.text=[NSString stringWithFormat:@"%.2f",bmi];
 }
 -(NSString*)getBMIStatuswithHeight:(float) height andWeight:(float) weight{
     

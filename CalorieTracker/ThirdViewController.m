@@ -29,6 +29,7 @@
      mealtable = [[UITableView alloc] initWithFrame:CGRectMake(1, HEIGHT*0.6, WIDTH, HEIGHT*0.187)
                                                            style:UITableViewStylePlain];
     mealtable.separatorColor = [UIColor clearColor];
+     self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"food1.jpg"]];
     // then hide table
     mealtable.hidden = YES;
     mealtable.delegate = self;
@@ -48,17 +49,14 @@
     
     // change the background color...
     self.view.backgroundColor = [UIColor whiteColor];
-    // for a background image
-    //self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@""]];
+    //Launch screen image gotten from https://www.clker.com/clipart-weightlifting.html
+    //App icon of this view controller gotten from https://icons8.com/icon/new-icons/all
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-
-
 
 /*
 #pragma mark - Navigation
@@ -69,8 +67,6 @@
     // Pass the selected object to the new view controller.
 }
 */
-
-
 
 #pragma mark -Methods to be implemented when the button is pressed
 - (IBAction)Optionsbutton:(UIButton *)sender {
@@ -101,6 +97,7 @@
                 handler:^(UIAlertAction * action) {}];
                 [alert addAction:defaultAction];
                 [self presentViewController:alert animated:YES completion:nil];
+        // Code that displays alert gotten from https://developer.apple.com/documentation/uikit/uialertcontroller?language=objc
                 mealtable.hidden=YES;
                 image.hidden=YES;
                 thankslabel.hidden=YES;
@@ -118,8 +115,7 @@
     
   
 }
-
-    #pragma mark - Table view data source
+#pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     
