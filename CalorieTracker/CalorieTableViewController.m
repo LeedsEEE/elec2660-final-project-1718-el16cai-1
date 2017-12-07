@@ -54,10 +54,19 @@
         cell.textLabel.text=tempCalorie.foodtype;
     
         if ( indexPath.row % 2 == 0 )
+            
+        cell.textLabel.textColor = [UIColor blackColor];
+        else
+            
+        cell.textLabel.textColor = [UIColor whiteColor];
+        
+        if ( indexPath.row % 2 == 0 )
             cell.backgroundColor = [UIColor whiteColor];
         else
-            cell.backgroundColor = [UIColor lightGrayColor];
-        // Code gotten from https://stackoverflow.com/questions/24743184/uitableview-set-background-color
+            cell.backgroundColor = [UIColor blackColor];
+        // Code to change background colour gotten from https://stackoverflow.com/questions/24743184/uitableview-set-background-color
+        // Code to change text colour gotten from https://stackoverflow.com/questions/3930968/how-to-change-the-color-of-the-text-present-in-table-view-from-its-default-black
+       
     // Configure the cell...
     }
     return cell;

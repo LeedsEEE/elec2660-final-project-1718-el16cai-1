@@ -24,13 +24,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
      self.CalorieData1 =[[CalorieModel alloc]init];
-     mealtable = [[UITableView alloc] initWithFrame:CGRectMake(0, HEIGHT*0.5, WIDTH, HEIGHT*0.5)
+     mealtable = [[UITableView alloc] initWithFrame:CGRectMake(0, HEIGHT*0.6, WIDTH, HEIGHT*0.9)
                                                            style:UITableViewStylePlain];
     mealtable.separatorColor = [UIColor clearColor];
     // then hide table
     mealtable.hidden = YES;
     mealtable.delegate = self;
     mealtable.dataSource=self;
+    // self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"image2.jpg"]];
     
     // init the temp array to store food found
     tempArray = [[NSMutableArray alloc] initWithCapacity:0];
@@ -42,7 +43,7 @@
     
     
     // change the background color...
-    //self.view.backgroundColor = [UIColor colorWithRed:(1/255) green:(1/255) blue:(1/255) alpha:1];
+    self.view.backgroundColor = [UIColor brownColor];
     // for a background image
     //self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@""]];
 }
@@ -69,7 +70,7 @@
 
 
 - (IBAction)Optionsbutton:(UIButton *)sender {
-//hides keyboard from showing
+//hides keyboard
     [ _CaloriesTextField resignFirstResponder];
     // show table to user
     mealtable.hidden = NO;
@@ -108,13 +109,6 @@
   
 }
 
-//UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"ROFL"
-                                              //  message:@"Dee dee doo doo."
-                                              // delegate:self
-                                      //cancelButtonTitle:@"OK"
-                                      //otherButtonTitles:nil];
-//[alert show];
-//\*  https://stackoverflow.com/questions/4463806/adding-a-simple-uialertview
     #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -146,25 +140,17 @@
             Calorie *food = [tempArray objectAtIndex:indexPath.row];
             NSString *combined = [NSString stringWithFormat:@"%@          %@", food.foodtype, food.ServingSize];
             cell.textLabel.text = combined;
-            //cell.detailTextLabel.text=food.ServingSize;
+            cell.backgroundColor=[UIColor whiteColor];
         }
         //Code to combine strings gotten from https://stackoverflow.com/questions/6948178/how-to-combine-two-strings-in-objective-c-for-an-iphone-app
-        if ( indexPath.row % 2 == 0 )
-            cell.backgroundColor = [UIColor whiteColor];
-        else
-            cell.backgroundColor = [UIColor lightGrayColor];
+        
+      if ( indexPath.row % 2 == 0 )
+            cell.backgroundColor = [UIColor brownColor];
+    else
+            cell.backgroundColor = [UIColor brownColor];
     }
 
 return cell;
   
 }
-
-
-
-
-    
-
-
-
-
 @end

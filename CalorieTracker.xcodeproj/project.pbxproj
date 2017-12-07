@@ -43,6 +43,9 @@
 		D2A7997E1FD83FAC00C90CCC /* InformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A7997D1FD83FAC00C90CCC /* InformationViewController.m */; };
 		D2A799811FD8402C00C90CCC /* DetailInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A799801FD8402C00C90CCC /* DetailInformationViewController.m */; };
 		D2A799841FD869AF00C90CCC /* InformationString.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A799831FD869AF00C90CCC /* InformationString.m */; };
+		D2A799861FD8987E00C90CCC /* form.png in Resources */ = {isa = PBXBuildFile; fileRef = D2A799851FD8987C00C90CCC /* form.png */; };
+		D2A799881FD8A9C400C90CCC /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2A799871FD8A9C300C90CCC /* image2.jpg */; };
+		D2A7998A1FD8C01200C90CCC /* thanks.png in Resources */ = {isa = PBXBuildFile; fileRef = D2A799891FD8C01100C90CCC /* thanks.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +125,9 @@
 		D2A799801FD8402C00C90CCC /* DetailInformationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailInformationViewController.m; sourceTree = "<group>"; };
 		D2A799821FD869AF00C90CCC /* InformationString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InformationString.h; sourceTree = "<group>"; };
 		D2A799831FD869AF00C90CCC /* InformationString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InformationString.m; sourceTree = "<group>"; };
+		D2A799851FD8987C00C90CCC /* form.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = form.png; sourceTree = "<group>"; };
+		D2A799871FD8A9C300C90CCC /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		D2A799891FD8C01100C90CCC /* thanks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thanks.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,8 +206,11 @@
 				D2147BC81FD1F06E00A3F209 /* Lancashire hotpot.jpg */,
 				D2147BC41FD1DDF400A3F209 /* ShepherdsPie.jpg */,
 				D2147BE31FD3062900A3F209 /* bmi.jpg */,
+				D2A799851FD8987C00C90CCC /* form.png */,
 				D2147BDE1FD2F97900A3F209 /* baconbutty.jpg */,
 				D23CA72B1FD739D50006A22D /* calculator.png */,
+				D2A799871FD8A9C300C90CCC /* image2.jpg */,
+				D2A799891FD8C01100C90CCC /* thanks.png */,
 				D2147BCC1FD1F83F00A3F209 /* CornishPasty.jpg */,
 				D2147BCE1FD1FEC300A3F209 /* VictorianSponge.jpg */,
 				D23CA72F1FD73A0E0006A22D /* counter.png */,
@@ -352,6 +361,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2A7998A1FD8C01200C90CCC /* thanks.png in Resources */,
 				D23CA7301FD73A0F0006A22D /* counter.png in Resources */,
 				D2147BDF1FD2F97900A3F209 /* baconbutty.jpg in Resources */,
 				D2147BD11FD2041600A3F209 /* peaandhamsoup.jpeg in Resources */,
@@ -360,6 +370,7 @@
 				D23CA72E1FD739F60006A22D /* tableicon.png in Resources */,
 				D2147BCD1FD1F84000A3F209 /* CornishPasty.jpg in Resources */,
 				D2147BD71FD2EC9900A3F209 /* vegetablestirfry.jpg in Resources */,
+				D2A799861FD8987E00C90CCC /* form.png in Resources */,
 				D2147BC11FD1D8CF00A3F209 /* Cumberland Pie.jpg in Resources */,
 				D2147BE41FD3062A00A3F209 /* bmi.jpg in Resources */,
 				D287A26A1FC152F100CC3C0B /* LaunchScreen.storyboard in Resources */,
@@ -373,6 +384,7 @@
 				D2147BC71FD1EA1F00A3F209 /* steakaleandpie.jpg in Resources */,
 				D287A2651FC152F100CC3C0B /* Main.storyboard in Resources */,
 				D2147BD31FD2E3DE00A3F209 /* ploughman.jpg in Resources */,
+				D2A799881FD8A9C400C90CCC /* image2.jpg in Resources */,
 				D2147BC51FD1DDF400A3F209 /* ShepherdsPie.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

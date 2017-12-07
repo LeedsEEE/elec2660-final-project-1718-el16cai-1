@@ -13,6 +13,7 @@
 @interface CalorieTableViewController : UITableViewController
 
 
-@property (strong,nonatomic) CalorieModel *CalorieData; //creates an object in the table view controller so that I can access the data stored
+@property (strong,nonatomic) CalorieModel *CalorieData;
+//creates an object in the table view controller so that I can access the data stored
 
 @end
