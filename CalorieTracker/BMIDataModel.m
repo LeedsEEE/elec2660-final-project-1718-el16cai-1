@@ -19,29 +19,29 @@
     
     float bmi= (weight/ (height * height));
     if (bmi<15.0){
-        return @"Very severely underweight";
+        return @"You Are Very severely underweight";
         
     }
     else if(bmi >= 15 && bmi < 16){
-        return @"Severely Underweight";
+        return @"You Are Severely Underweight";
     }
     else if(bmi>=16.0 && bmi<18.5){
-        return @"Underweight";
+        return @"You Are Underweight";
     }
     else if(bmi>=18.5 && bmi<25){
-        return @"Normal(Healthy)";
+        return @"You Are Normal(Healthy)";
     }
     else if(bmi>=25 && bmi<30){
-        return @"Overweight";
+        return @"You Are Overweight";
     }
     else if(bmi>=30 && bmi<35){
-        return @"Obese Class I";
+        return @"You Belong To Obese Class I";
     }
     else if(bmi>=35 && bmi<40){
-        return @"Obese Class II";
+        return @"You Belong To Obese Class II";
     }
     else{
-        return @"Obese Class III"
+        return @"You Belong To Obese Class III"
         ;    }
 }
 

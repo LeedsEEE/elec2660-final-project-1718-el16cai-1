@@ -15,6 +15,9 @@
 //@property (weak, nonatomic) IBOutlet UITableView *mealtable;
 - (IBAction)Optionsbutton:(UIButton *)sender;
 @property (weak, nonatomic) IBOutlet UITextField *CaloriesTextField;
+//@property (weak, nonatomic) IBOutlet UIImageView *image;
+//@property (weak, nonatomic) IBOutlet UILabel *thankslabel;
+//@property (weak, nonatomic) IBOutlet UILabel *labelLoading;
 
 @property (strong,nonatomic) Calorie *calorie;
 @property (strong,nonatomic) CalorieModel *CalorieData1;

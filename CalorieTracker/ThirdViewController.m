@@ -14,6 +14,8 @@
 
 @interface ThirdViewController () <UITableViewDelegate, UITableViewDataSource> {
     UITableView *mealtable;
+    UIImageView *image;
+    UILabel *thankslabel;
     NSMutableArray *tempArray;
 }
 
@@ -24,13 +26,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
      self.CalorieData1 =[[CalorieModel alloc]init];
-     mealtable = [[UITableView alloc] initWithFrame:CGRectMake(0, HEIGHT*0.6, WIDTH, HEIGHT*0.9)
+     mealtable = [[UITableView alloc] initWithFrame:CGRectMake(1, HEIGHT*0.6, WIDTH, HEIGHT*0.187)
                                                            style:UITableViewStylePlain];
     mealtable.separatorColor = [UIColor clearColor];
     // then hide table
     mealtable.hidden = YES;
     mealtable.delegate = self;
     mealtable.dataSource=self;
+    image.hidden=YES;
+    thankslabel.hidden=YES;
     // self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"image2.jpg"]];
     
     // init the temp array to store food found
@@ -43,7 +47,7 @@
     
     
     // change the background color...
-    self.view.backgroundColor = [UIColor brownColor];
+    self.view.backgroundColor = [UIColor whiteColor];
     // for a background image
     //self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@""]];
 }
@@ -70,6 +74,9 @@
 
 #pragma mark -Methods to be implemented when the button is pressed
 - (IBAction)Optionsbutton:(UIButton *)sender {
+
+    image.hidden=NO;
+   thankslabel.hidden=NO;
    //hides keyboard
    [ _CaloriesTextField resignFirstResponder];
    // show table to user
@@ -95,6 +102,8 @@
                 [alert addAction:defaultAction];
                 [self presentViewController:alert animated:YES completion:nil];
                 mealtable.hidden=YES;
+                image.hidden=YES;
+                thankslabel.hidden=YES;
                 //hide the table after the alert has come up.
             }
                 NSLog(@"Food Found!");
@@ -145,9 +154,9 @@
         }
         //Code to combine strings gotten from https://stackoverflow.com/questions/6948178/how-to-combine-two-strings-in-objective-c-for-an-iphone-app
         if ( indexPath.row % 2 == 0 )
-            cell.backgroundColor = [UIColor brownColor];
+            cell.backgroundColor = [UIColor whiteColor];
     else
-            cell.backgroundColor = [UIColor brownColor];
+            cell.backgroundColor = [UIColor whiteColor];
     }
 
 return cell;
