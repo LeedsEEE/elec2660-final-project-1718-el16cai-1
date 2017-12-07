@@ -46,6 +46,7 @@
     _BMITextField.text = [NSString stringWithFormat:@"%.2f", [_personalbmicalc calculateBMIwithHeight:[self.HeightTextField.text floatValue] andWeight:[self.WeightTextField.text floatValue]]];
     self.StatusTextField.text = [_personalbmicalc getBMIStatuswithHeight:[self.HeightTextField.text floatValue] andWeight:[self.WeightTextField.text floatValue]];
 }
+//The code to obtain the bmi and status from the data model was given through suggestions from a fellow student.
 - (IBAction)ResetButton:(UIButton *)sender {
     self.HeightSlider1.value= 0.0;
     self.Weightslider1.value=0.0;

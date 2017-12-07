@@ -299,6 +299,14 @@
                                     <outlet property="delegate" destination="T74-uf-Xah" id="bLe-uV-xwo"/>
                                 </connections>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VB3-pN-qK6">
+                                <rect key="frame" x="80" y="522" width="184" height="57"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <state key="normal" title="Click To Save"/>
+                                <connections>
+                                    <segue destination="eWu-Dp-Rnm" kind="show" identifier="information" id="AIu-jz-WrD"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dl5-wN-fRN">
                                 <rect key="frame" x="7" y="56" width="50" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -407,14 +415,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VB3-pN-qK6">
-                                <rect key="frame" x="80" y="522" width="184" height="57"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                <state key="normal" title="Click To Save"/>
-                                <connections>
-                                    <segue destination="eWu-Dp-Rnm" kind="show" identifier="information" id="AIu-jz-WrD"/>
-                                </connections>
-                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please Fill In Your Details Below:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KLs-nC-Yqh">
+                                <rect key="frame" x="65" y="13" width="245" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -430,6 +436,7 @@
                             <constraint firstItem="Mwb-sL-cOl" firstAttribute="bottom" secondItem="VB3-pN-qK6" secondAttribute="bottom" constant="39" id="5eH-MP-OJa"/>
                             <constraint firstItem="G3X-ib-fxi" firstAttribute="leading" secondItem="I5f-at-4Kk" secondAttribute="leading" id="5uO-Dg-tVq"/>
                             <constraint firstItem="EDB-lL-ocx" firstAttribute="leading" secondItem="Kh9-FD-Uuj" secondAttribute="leading" id="6Ua-54-mv4"/>
+                            <constraint firstItem="Mwb-sL-cOl" firstAttribute="top" secondItem="KLs-nC-Yqh" secondAttribute="top" constant="7" id="8bm-Vf-iwQ"/>
                             <constraint firstItem="EDB-lL-ocx" firstAttribute="top" secondItem="I5f-at-4Kk" secondAttribute="bottom" constant="19" id="96T-gA-AFA"/>
                             <constraint firstItem="Mwb-sL-cOl" firstAttribute="trailing" secondItem="I5f-at-4Kk" secondAttribute="trailing" constant="12" id="9zc-dg-rjE"/>
                             <constraint firstItem="dl5-wN-fRN" firstAttribute="centerY" secondItem="yGI-pg-85d" secondAttribute="centerY" id="AEK-GG-Q4q"/>
@@ -439,6 +446,7 @@
                             <constraint firstItem="Xng-Wl-Aqd" firstAttribute="leading" secondItem="1hy-BS-acb" secondAttribute="leading" id="E1i-1A-3wF"/>
                             <constraint firstItem="2Xd-zy-Vhj" firstAttribute="top" secondItem="j4e-kl-iqf" secondAttribute="bottom" constant="37" id="FTN-2T-kam"/>
                             <constraint firstItem="b19-eo-7oS" firstAttribute="leading" secondItem="j4e-kl-iqf" secondAttribute="leading" id="FtL-zW-bJU"/>
+                            <constraint firstItem="Mwb-sL-cOl" firstAttribute="trailing" secondItem="KLs-nC-Yqh" secondAttribute="trailing" constant="65" id="JS1-cT-MdS"/>
                             <constraint firstItem="G3X-ib-fxi" firstAttribute="top" secondItem="j4u-Eb-uhy" secondAttribute="bottom" constant="25" id="M0z-2Q-aq1"/>
                             <constraint firstItem="29q-dD-aOo" firstAttribute="top" secondItem="b19-eo-7oS" secondAttribute="bottom" constant="20" id="NeK-gl-gba"/>
                             <constraint firstItem="m6m-ZO-Ow1" firstAttribute="top" secondItem="Kh9-FD-Uuj" secondAttribute="bottom" constant="22" id="OuJ-KG-Mbs"/>
@@ -450,6 +458,7 @@
                             <constraint firstItem="Mwb-sL-cOl" firstAttribute="trailing" secondItem="m6m-ZO-Ow1" secondAttribute="trailing" constant="19" id="Suz-b1-7ia"/>
                             <constraint firstItem="1hy-BS-acb" firstAttribute="trailing" secondItem="nhY-8u-HFH" secondAttribute="trailing" id="TCK-P4-20k"/>
                             <constraint firstItem="1hy-BS-acb" firstAttribute="centerY" secondItem="I5f-at-4Kk" secondAttribute="centerY" id="Tqv-zq-TrY"/>
+                            <constraint firstItem="KLs-nC-Yqh" firstAttribute="leading" secondItem="Mwb-sL-cOl" secondAttribute="leading" constant="65" id="ULm-Y4-t7R"/>
                             <constraint firstItem="E2Z-Rf-K6I" firstAttribute="top" secondItem="29q-dD-aOo" secondAttribute="bottom" constant="37" id="VA8-p7-Hxf"/>
                             <constraint firstItem="yGI-pg-85d" firstAttribute="top" secondItem="Mwb-sL-cOl" secondAttribute="top" constant="31" id="VrR-Mo-MiR"/>
                             <constraint firstItem="Mwb-sL-cOl" firstAttribute="trailing" secondItem="VB3-pN-qK6" secondAttribute="trailing" constant="111" id="WKZ-zD-VyP"/>
@@ -457,6 +466,7 @@
                             <constraint firstItem="VB3-pN-qK6" firstAttribute="top" secondItem="w3Z-vo-e8A" secondAttribute="bottom" constant="41" id="bGN-Ap-YT3"/>
                             <constraint firstItem="b19-eo-7oS" firstAttribute="top" secondItem="nhY-8u-HFH" secondAttribute="bottom" constant="54" id="cym-Vt-BOd"/>
                             <constraint firstItem="yGI-pg-85d" firstAttribute="trailing" secondItem="j4u-Eb-uhy" secondAttribute="trailing" id="dOV-FP-F1O"/>
+                            <constraint firstItem="yGI-pg-85d" firstAttribute="top" secondItem="KLs-nC-Yqh" secondAttribute="bottom" constant="17" id="ekV-tS-lj5"/>
                             <constraint firstItem="2Xd-zy-Vhj" firstAttribute="bottom" secondItem="w3Z-vo-e8A" secondAttribute="bottom" id="fni-qN-oYH"/>
                             <constraint firstItem="Sqa-4V-SLc" firstAttribute="leading" secondItem="Mwb-sL-cOl" secondAttribute="leading" constant="4" id="jcs-gm-3J6"/>
                             <constraint firstItem="Kh9-FD-Uuj" firstAttribute="leading" secondItem="VB3-pN-qK6" secondAttribute="leading" id="jse-GY-Lu4"/>

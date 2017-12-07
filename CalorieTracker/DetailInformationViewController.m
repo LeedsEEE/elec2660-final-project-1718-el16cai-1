@@ -32,6 +32,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+#pragma mark method that allows user to exit a view after the button has been pressed
 - (IBAction)exit:(id)sender {
     
     [self dismissViewControllerAnimated:YES completion:nil];

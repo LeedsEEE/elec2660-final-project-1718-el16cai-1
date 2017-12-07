@@ -68,38 +68,39 @@
 
 
 
-
+#pragma mark -Methods to be implemented when the button is pressed
 - (IBAction)Optionsbutton:(UIButton *)sender {
-//hides keyboard
-    [ _CaloriesTextField resignFirstResponder];
-    // show table to user
-    mealtable.hidden = NO;
-    // clear the array before the search
-    [tempArray removeAllObjects];
-    // Find the food with correct calories
-    // first loop through the array of foods
-    for (int i = 0; i < [self.CalorieData1.mealarray count]; i++) {
-        Calorie *temp2 = [self.CalorieData1.mealarray objectAtIndex:i];
-        // take the current food value at index
-        int RollNumber = [self.CaloriesTextField.text intValue];
-        // take the value of the calorie in the text field
-        if (RollNumber >= temp2.calories) {
-            // check for the foods lower than the roll number
-            if(RollNumber>=2000){
-                UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Warning"
-                        message:@"Please Enter A Valid Number"
-                    preferredStyle:UIAlertControllerStyleAlert];
+   //hides keyboard
+   [ _CaloriesTextField resignFirstResponder];
+   // show table to user
+  mealtable.hidden = NO;
+  // clear the array before the search
+  [tempArray removeAllObjects];
+  // Find the food with correct calories
+  // first loop through the array of foods
+  for (int i = 0; i < [self.CalorieData1.mealarray count]; i++) {
+  Calorie *temp2 = [self.CalorieData1.mealarray objectAtIndex:i];
+  // take the current food value at index
+  int DesiredCalories = [self.CaloriesTextField.text intValue];
+  //code to change the string in a text field to an integer value gotten from https://stackoverflow.com/questions/3787461/how-do-i-convert-a-string-into-an-integer-in-objective-c
+   // take the value of the calorie in the text field
+    if (DesiredCalories >= temp2.calories) {
+    // check for the foods lower than the Desired Calories
+    if(DesiredCalories>=2000){
+    UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Warning"
+                message:@"Please Enter A Valid Number"
+                preferredStyle:UIAlertControllerStyleAlert];
                 UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
-            handler:^(UIAlertAction * action) {}];
-                
+                handler:^(UIAlertAction * action) {}];
                 [alert addAction:defaultAction];
                 [self presentViewController:alert animated:YES completion:nil];
                 mealtable.hidden=YES;
+                //hide the table after the alert has come up.
             }
-            NSLog(@"Food Found!");
-            // NSLOG a found food
-            [tempArray addObject:temp2];
-            // Save the found food to a temp array
+                NSLog(@"Food Found!");
+                // NSLOG a found food
+                [tempArray addObject:temp2];
+                // Save the found food to a temp array
         }
     }
     
@@ -143,8 +144,7 @@
             cell.backgroundColor=[UIColor whiteColor];
         }
         //Code to combine strings gotten from https://stackoverflow.com/questions/6948178/how-to-combine-two-strings-in-objective-c-for-an-iphone-app
-        
-      if ( indexPath.row % 2 == 0 )
+        if ( indexPath.row % 2 == 0 )
             cell.backgroundColor = [UIColor brownColor];
     else
             cell.backgroundColor = [UIColor brownColor];
