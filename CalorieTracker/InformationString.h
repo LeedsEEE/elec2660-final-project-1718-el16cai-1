@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface InformationString : UIViewController
-
+/**
+ Class That Stores The Information That Is Going To Be Passed To The DetailInformationViewController.
+ */
 @property(nonatomic,strong)NSString *NameString;
 @property(nonatomic,strong)NSString *AgeString;
 @property(nonatomic,strong)NSString *GenderString;

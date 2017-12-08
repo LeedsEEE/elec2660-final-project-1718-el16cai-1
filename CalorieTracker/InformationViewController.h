@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "InformationString.h"
-
+/**
+ Class That Represents The View Controller That Contains Text Fields To Fill In Certain Information.
+ */
 @interface InformationViewController : UIViewController <UITextFieldDelegate>
 
 @property (weak, nonatomic) IBOutlet UITextField *NameTextField;

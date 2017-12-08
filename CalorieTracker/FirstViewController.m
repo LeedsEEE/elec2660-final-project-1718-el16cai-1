@@ -34,7 +34,9 @@
     // Dispose of any resources that can be recreated.
 }
 
-
+//This code gets the value of the height from the slider
+//The value of the BMI is gotten from a combination of methods to get the height and weight from the slider value
+//The Status is gotten from a combination of methods to get the the height and weight from the slider value
 - (IBAction)HeightSlider:(UISlider *)sender {
     self.HeightTextField.text=[NSString stringWithFormat:@" %.2f m",sender.value];
     _BMITextField.text = [NSString stringWithFormat:@"%.2f", [_personalbmicalc calculateBMIwithHeight:[self.HeightTextField.text floatValue] andWeight:[self.WeightTextField.text floatValue]]];
@@ -42,6 +44,9 @@
     
    
 }
+//This code gets the value of the weight from the slider
+//The value of the BMI is gotten from a combination of methods to get the height and weight from the slider value
+//The Status is gotten from a combination of methods to get the the height and weight from the slider value
 -(IBAction)WeightSlider:(UISlider *)sender{
     self.WeightTextField.text=[NSString stringWithFormat:@"%.2f kg",sender.value];
     _BMITextField.text = [NSString stringWithFormat:@"%.2f", [_personalbmicalc calculateBMIwithHeight:[self.HeightTextField.text floatValue] andWeight:[self.WeightTextField.text floatValue]]];

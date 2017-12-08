@@ -8,7 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import "Calorie.h"
-
+/**
+ Class That Stores Data For The Calorie Chart.
+ */
 @interface CalorieModel : NSObject
 
 @property (strong,nonatomic) NSMutableArray* mealarray;

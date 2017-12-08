@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "Calorie.h"
 #import "CalorieModel.h"
-
+/**
+ Class That Represents The View Controller That Gives Meal Suggestions.
+ */
 
 @interface ThirdViewController : UIViewController
 //@property (weak, nonatomic) IBOutlet UITableView *mealtable;

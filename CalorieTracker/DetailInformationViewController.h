@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "InformationString.h"
-
+/**
+ Class That Represents The View Controller That Displays Information Based on what is computed in The Information View controller.
+ */
 @interface DetailInformationViewController : UIViewController
 
 @property(nonatomic,strong)InformationString *InformationStringClass;

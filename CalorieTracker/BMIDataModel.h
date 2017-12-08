@@ -8,7 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-
+/**
+ Class to represent The Data Model of the BMI Calculator.
+ */
 @interface BMIDataModel : NSObject
 @property float height;
 @property float weight;

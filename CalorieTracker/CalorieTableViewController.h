@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "CalorieModel.h"
 #import "SecondViewController.h"
-
+/**
+ Class That Implements All The Protocol To Set Up A Table For The calorie Chart.
+ */
 @interface CalorieTableViewController : UITableViewController
 
 

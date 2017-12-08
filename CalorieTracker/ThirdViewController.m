@@ -51,6 +51,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     //Launch screen image gotten from https://www.clker.com/clipart-weightlifting.html
     //App icon of this view controller gotten from https://icons8.com/icon/new-icons/all
+    //Smiley face gotten from http://www.insurancechat.co.za/wp-content/uploads/2017/09/yellow_smiley_face_stickers-r61c4d7a911824bccbccc41c14d4f6cb3_v9waf_8byvr_324.jpg
 }
 
 - (void)didReceiveMemoryWarning {
@@ -91,7 +92,7 @@
     // check for the foods lower than the Desired Calories
     if(DesiredCalories>=2000){
     UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Warning"
-                message:@"Please Enter A Valid Number"
+                message:@"Please Enter A Number From 1-1999"
                 preferredStyle:UIAlertControllerStyleAlert];
                 UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
                 handler:^(UIAlertAction * action) {}];

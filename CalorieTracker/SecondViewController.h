@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "Calorie.h"
-
+/**
+ Class to represent an The View Controller That Displays Information From The Table.
+ */
 @interface SecondViewController : UIViewController <UITextFieldDelegate>
 
 @property (weak, nonatomic) IBOutlet UITextField *foodtypetextfield;
