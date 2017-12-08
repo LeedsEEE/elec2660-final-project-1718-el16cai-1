@@ -2,12 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Cumberland Pie.jpg",
+      "filename" : "table1.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "ShepherdsPie.jpg",
       "scale" : "2x"
     },
     {

@@ -177,7 +177,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="BMI Calculator" image="calculator.png" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="BMI Calculator" image="calculator1.png" id="acW-dT-cKf"/>
                     <connections>
                         <outlet property="BMITextField" destination="2eD-wD-My3" id="Zvp-jF-DlU"/>
                         <outlet property="HeightSlider1" destination="GZm-vA-S2D" id="W7K-X2-FOH"/>
@@ -283,7 +283,7 @@
         <scene sceneID="Oeu-X1-np0">
             <objects>
                 <navigationController id="nPK-0Y-qiJ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Calorie Chart" image="tableicon.png" id="4gV-mg-a4t"/>
+                    <tabBarItem key="tabBarItem" title="Calorie Chart" image="table1.png" id="4gV-mg-a4t"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="FKq-KI-MeF">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -853,7 +853,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="pdE-v0-rp4"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Calorie Counter" image="counter.png" id="Bin-FW-dSW"/>
+                    <tabBarItem key="tabBarItem" title="Calorie Counter" image="counter1.png" id="Bin-FW-dSW"/>
                     <connections>
                         <outlet property="CaloriesTextField" destination="m96-cB-1Dp" id="hZE-Tg-eCN"/>
                         <outlet property="image" destination="seB-wZ-OCW" id="Iju-aa-erE"/>
@@ -886,11 +886,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="calculator.png" width="50" height="50"/>
-        <image name="counter.png" width="50" height="50"/>
+        <image name="calculator1.png" width="50" height="50"/>
+        <image name="counter1.png" width="50" height="50"/>
         <image name="form.png" width="50" height="50"/>
         <image name="second" width="30" height="30"/>
         <image name="smile.jpg" width="324" height="324"/>
-        <image name="tableicon.png" width="50" height="50"/>
+        <image name="table1.png" width="50" height="50"/>
     </resources>
 </document>

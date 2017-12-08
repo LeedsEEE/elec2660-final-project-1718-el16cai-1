@@ -61,7 +61,7 @@
         CumberlandPie.foodtype=@"Cumberland Pie";
         CumberlandPie.calories=297;
         CumberlandPie.ServingSize=@"400g";
-        CumberlandPie.imageName=@"Cumberland Pie.jpg";//Diagram gotten from https://www.bbcgoodfood.com/recipes/collection/british
+        CumberlandPie.imageName=@"cumberland1.jpg";//Diagram gotten from http://pinchofnom.com/recipes/half-syn-cumberland-pie-slimming-world/
         
         self.mealarray=[NSMutableArray array];
         Calorie*RoastBeefGravy=[[Calorie alloc]init];
