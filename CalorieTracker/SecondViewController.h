@@ -12,7 +12,6 @@
  Class to represent an The View Controller That Displays Information From The Table.
  */
 @interface SecondViewController : UIViewController <UITextFieldDelegate>
-
 @property (weak, nonatomic) IBOutlet UITextField *foodtypetextfield;
 @property (weak, nonatomic) IBOutlet UITextField *caloriestextfield;
 @property (weak, nonatomic) IBOutlet UITextField *servingsizetextfield;

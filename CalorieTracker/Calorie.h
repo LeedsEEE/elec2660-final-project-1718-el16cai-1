@@ -11,7 +11,6 @@
  Class That Stores Data For The Calorie Chart.
  */
 @interface Calorie : NSObject
-
 @property (nonatomic,strong) NSString* foodtype;
 @property NSInteger calories;
 @property (nonatomic,strong) NSString* ServingSize;

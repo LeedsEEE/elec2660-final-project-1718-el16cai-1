@@ -9,6 +9,7 @@
 #import "CalorieModel.h"
 
 @implementation CalorieModel
+//Stores the different meals and their information in a mutable array
 - (instancetype)init
 {
     self = [super init];
@@ -155,7 +156,7 @@
         baconbutties.calories=400;
         baconbutties.ServingSize=@"1 Sandwich";
         baconbutties.imageName=@"baconbutty.jpg"; //Image gotten from http://www.qreactive.com/en/work/dr-schar-by-qreactive.htm
-        
+        //All data concerning amount of calories and serving size gotten from https://www.myfitnesspal.com
         [self.mealarray addObject:applecrumble];
         [self.mealarray addObject:baconbutties];
         [self.mealarray addObject:ChickenTikkaMasala];
@@ -177,27 +178,7 @@
         [self.mealarray addObject:VictorianSponge];
         [self.mealarray addObject:YorkshirePudding];
         
-        
-      
-        
-       
-        
-        
-        
-        
-        
-        
-        
-       
-       
-      
-        
-        
-        
-        
-        
-        
-    }
+}
     return self;
 }
 @end

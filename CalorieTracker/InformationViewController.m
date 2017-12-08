@@ -30,6 +30,7 @@
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
+//Method to pass data to a new view controller
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([segue.identifier isEqualToString:@"information"]) {
         DetailInformationViewController *destvc=segue.destinationViewController;

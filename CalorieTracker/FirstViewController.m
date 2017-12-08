@@ -19,7 +19,7 @@
     self.personalbmicalc=[[BMIDataModel alloc]init];
     self.HeightSlider1.value=0.0;
     self.Weightslider1.value=0.0;
-    // self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"bmi.jpg"]];
+    // Disable the user's interaction with the text fields
     self.WeightTextField.userInteractionEnabled = NO;
     self.HeightTextField.userInteractionEnabled=NO;
     self.BMITextField.userInteractionEnabled=NO;
@@ -52,7 +52,9 @@
     _BMITextField.text = [NSString stringWithFormat:@"%.2f", [_personalbmicalc calculateBMIwithHeight:[self.HeightTextField.text floatValue] andWeight:[self.WeightTextField.text floatValue]]];
     self.StatusTextField.text = [_personalbmicalc getBMIStatuswithHeight:[self.HeightTextField.text floatValue] andWeight:[self.WeightTextField.text floatValue]];
 }
+
 //The code to obtain the bmi and status from the data model was given through suggestions from a fellow student.
+//Method that implements protocol to be carried out when the button is pressed.
 - (IBAction)ResetButton:(UIButton *)sender {
     self.HeightSlider1.value= 0.0;
     self.Weightslider1.value=0.0;

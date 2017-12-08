@@ -14,8 +14,6 @@
 @interface DetailInformationViewController : UIViewController
 
 @property(nonatomic,strong)InformationString *InformationStringClass;
-
-
 @property (weak, nonatomic) IBOutlet UILabel *NameLabel;
 @property (weak, nonatomic) IBOutlet UILabel *AgeLabel;
 @property (weak, nonatomic) IBOutlet UILabel *GenderLabel;

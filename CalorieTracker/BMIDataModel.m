@@ -14,6 +14,7 @@
     float bmi= (weight/(height * height));
     return bmi;
 }
+//Method to determine the status
 -(NSString*)getBMIStatuswithHeight:(float) height andWeight:(float) weight{
     
     float bmi= (weight/ (height * height));

@@ -16,11 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //Gets the data to be filled in the text fields from the Calorie Model
     self.foodtypetextfield.text=self.calorie.foodtype;
     self.caloriestextfield.text=[NSString stringWithFormat:@"%ld",self.calorie.calories];
-self.servingsizetextfield.text=self.calorie.ServingSize;
+    self.servingsizetextfield.text=self.calorie.ServingSize;
     self.foodimage.image=[UIImage imageNamed:self.calorie.imageName];
- self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"food1.jpg"]];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"food1.jpg"]];
     //Image gotten from http://gordotaqueria.co
     
     // Code To Disable text fields

@@ -13,8 +13,6 @@
  Class That Implements All The Protocol To Set Up A Table For The calorie Chart.
  */
 @interface CalorieTableViewController : UITableViewController
-
-
 @property (strong,nonatomic) CalorieModel *CalorieData;
 //creates an object in the table view controller so that I can access the data stored
 

@@ -6,14 +6,13 @@
 //  Copyright © 2017 University of Leeds. All rights reserved.
 //
 
-/**
-Class to represent The View Controller that calculates the BMI.
- */
+
 #import <UIKit/UIKit.h>
 #import "BMIDataModel.h"
-
+/**
+ Class to represent The View Controller that calculates the BMI.
+ */
 @interface FirstViewController : UIViewController
-
 @property (weak, nonatomic) IBOutlet UITextField *HeightTextField;
 @property (weak, nonatomic) IBOutlet UITextField *WeightTextField;
 @property (weak, nonatomic) IBOutlet UITextField *BMITextField;
